@@ -6,7 +6,7 @@ let publications = [
 ]
 const publicationContainer = document.querySelector("#publication-list > tbody")
 
-const createPublicationCard = async (publication)=>{
+const createPublicationCard = async (publication) => {
     const bibtex = await (await fetch(`/assets/publications/${publication}/cite.bib`)).text();
     const rawContents = await (await fetch(`/assets/publications/${publication}/index.yaml`)).text();
     const contents = jsyaml.load(rawContents);
@@ -15,7 +15,6 @@ const createPublicationCard = async (publication)=>{
     const container = template.content.cloneNode(true);
     container.tag
 
-    console.log(contents)
     // img
     const teaserImage = container.querySelector('.publication-preview-container > img');
     teaserImage.src = teaser;
@@ -34,13 +33,13 @@ const createPublicationCard = async (publication)=>{
 
 
     const linkContainer = container.querySelector('.publication-links')
-    contents.links.forEach(linkCont=>{
+    contents.links.forEach(linkCont => {
         const name = Object.keys(linkCont)[0];
         const link = Object.values(linkCont)[0];
-        if(link){
+        if (link) {
             linkAnchor = document.createElement('a');
             linkAnchor.href = link;
-            linkAnchor.innerHTML = name; 
+            linkAnchor.innerHTML = name;
             linkContainer.appendChild(linkAnchor);
             const span = document.createElement('span')
             span.innerHTML = '&nbsp/&nbsp';
@@ -56,49 +55,17 @@ const createPublicationCard = async (publication)=>{
     const descContainer = container.querySelector('.publication-description')
     descContainer.innerHTML = contents.description
 
-    //     <div class="publication-description">
-    //     </div>
-    //     <div class="publication-venue">3DV, 2018</div>
-    //   <!-- publication information -->
-    //   <td class="publication-info">
-    //     <div class="publication-authors">
-    //       <a href="josephdegol.com">Joseph Degol</a>, Jae Yong Lee
-    //     </div>
-    //     <div class="publication-venue">3DV, 2018</div>
-    //     <div class="publication-links">
-    //       <a href="">Code</a>&nbsp/&nbsp
-    //     </div>
-    //     <div class="publication-description">
-    //     </div>
-    //   </td>
-    /*
-    <li class="publication">
-        <!-- publication preview image-->
-        <div class="publication-preview-container">
-
-        </div>
-
-        <!-- publication information -->
-        <div class="publication-info">
-            <div class="publication-title"></div>
-            <div class="publication-venue"></div>
-            <div class="publication-date"></div>
-            <div class="publication-links"></div>
-            <div class="publication-description"></div>
-        </div>
-    </li>
-    */
-   return container;
+    return container;
 }
 
-const fetchAllPublications = async ()=>{
+const fetchAllPublications = async () => {
     // setup loading icon
 
-    const cards = await Promise.all(publications.map(async publication=>{
+    const cards = await Promise.all(publications.map(async publication => {
         return await createPublicationCard(publication);
     }));
 
-    cards.forEach(card=>publicationContainer.appendChild(card));
+    cards.forEach(card => publicationContainer.appendChild(card));
     // remove loading icon
 }
 fetchAllPublications()

@@ -4,14 +4,13 @@ body{
 }
 main {
     margin:auto;
-    width: 40%;
+    width: 100%;
+    max-width: 800px;
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
 }
 footer{
     text-align: right;
     font-size: smaller;
-    margin:auto;
-    width: 40%;
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
 }
 
