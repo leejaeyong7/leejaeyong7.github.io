@@ -1,0 +1,16 @@
+title: "PatchMatch-Based Neighborhood Consensus for Semantic Correspondence"
+authors:
+- Jae Yong Lee
+- <a href="http://josephdegol.com">Joseph Degol</a>
+- <a href="http://vfragoso.com/">Victor Fragoso</a>
+- <a href="https://www.microsoft.com/en-us/research/people/sudipsin/">Supdta Sinha</a>
+
+url: https://github.com/leejaeyong7/patch-match-consensus
+venue: CVPR, 2021
+oral: false
+description: Accelerating Neighborhood-Consensus based Matching using PatchMatch algorithm.
+
+links:
+  - arXiv: 
+  - video: https://www.youtube.com/watch?v=KjowJPDEfHU
+  - code: https://github.com/leejaeyong7/patch-match-consensus

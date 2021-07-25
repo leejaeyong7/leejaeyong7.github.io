@@ -1,0 +1,16 @@
+title: "PatchMatch-RL: Deep MVS with Pixelwise Depth, Normal, and Visibility"
+authors:
+- Jae Yong Lee
+- <a href="https://josephdegol.com">Joseph Degol</a>
+- <a href="https://zouchuhang.github.io/">Chuhang Zou</a>
+- <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>
+
+url: https://github.com/leejaeyong7/patch-match-mvs-net
+venue: ICCV, 2021
+oral: true
+description: Training PatchMatch end-to-end using Reinforcement Learning
+
+links:
+  - arXiv: 
+  - video: 
+  - code: https://github.com/leejaeyong7/patch-match-mvs-net

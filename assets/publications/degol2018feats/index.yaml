@@ -1,0 +1,17 @@
+title: "FEATS: Synthetic Feature Tracks for Structure from Motion Evaluation"
+authors:
+- <a href="http://josephdegol.com">Joseph Degol</a>
+- Jae Yong Lee
+- <a href="https://rajbirkataria.com/">Rajbir Kataria</a>
+- <a href="https://danielyuan.me/"/>Daniel Yuan</a>
+- <a href="https://bretl.csl.illinois.edu"/>Timothy Bretl</a>
+- <a href="https://dhoiem.cs.illinois.edu"/>Derek Hoiem</a>
+
+venue: 3DV, 2018
+oral: false
+description: Synthetic feature point generation for feature matching simulation.
+
+links:
+  - arXiv: 
+  - video: 
+  - code: 

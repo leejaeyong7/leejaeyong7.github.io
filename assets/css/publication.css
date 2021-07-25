@@ -1,0 +1,55 @@
+
+.publication-container{
+    width: 100%;
+}
+#publication-list{
+    width: 100%;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin: auto;
+}
+
+.publication{
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.publication-preview-container{
+    padding:20px;
+    width:25%;
+    vertical-align:middle;
+}
+
+.publication-preview-container > img{
+    width: 160px;
+    height: 160px;
+}
+
+.publication-info {
+    padding:20px;
+    width:75%;
+    vertical-align:middle;
+}
+
+.publication-title {
+    font-weight: bold;
+    /* font-size: small; */
+}
+
+.publication-authors{
+    /* font-size: small; */
+    /* font-style:italic; */
+}
+
+.publication-venue{
+    /* font-size: small; */
+    font-style:italic;
+}
+
+.publication-venue-oral{
+    font-weight: bold;
+    color: red;
+}
+

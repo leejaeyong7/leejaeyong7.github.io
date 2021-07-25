@@ -1,0 +1,11 @@
+#profile-container {
+    text-align: center;
+}
+#profile-image-container > img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#profile-container p{
+    text-align: left;
+}
