@@ -5,7 +5,7 @@ authors:
 - <a href="https://zouchuhang.github.io/">Chuhang Zou</a>
 - <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>
 
-url: https://github.com/leejaeyong7/patch-match-mvs-net
+url: https://github.com/leejaeyong7/patchmatch-rl
 venue: ICCV, 2021
 oral: true
 description: Training PatchMatch end-to-end using Reinforcement Learning
@@ -13,4 +13,4 @@ description: Training PatchMatch end-to-end using Reinforcement Learning
 links:
   - arXiv: 
   - video: 
-  - code: https://github.com/leejaeyong7/patch-match-mvs-net
+  - code: https://github.com/leejaeyong7/patchmatch-rl
