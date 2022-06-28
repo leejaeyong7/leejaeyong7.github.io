@@ -1,0 +1,19 @@
+title: "DIVeR: Real-time and Accurate Neural Radiance Fields with Deterministic Integration for Volume Rendering"
+authors:
+- <a href="https://lwwu2.github.io/">Liwen Wu</a>
+- Jae Yong Lee
+- <a href="https://anandbhattad.github.io/">Anand Bhattad</a>
+- <a href="https://yxw.web.illinois.edu/">Yuxiong Wang</a>
+- <a href="http://luthuli.cs.uiuc.edu/~daf/">David A. Forsyth</a>
+
+url: https://lwwu2.github.io/diver/
+venue: CVPR, 2022
+oral: true
+best: false
+best_final: true
+description: Real-Time NeRF with deterministic feature integration
+
+links:
+  - arXiv: https://arxiv.org/abs/2111.10427
+  - video: 
+  - code: https://github.com/lwwu2/diver-rt

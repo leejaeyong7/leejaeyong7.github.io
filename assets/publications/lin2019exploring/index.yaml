@@ -7,6 +7,8 @@ authors:
 url: https://ascelibrary.org/doi/abs/10.1061/9780784482438.021
 venue: ASCE International Conference on Computing in Civil Engineering, 2019
 oral: false
+best: false
+best_final: false
 description: Contruction progress monitoring using CNN based material classifier.
 
 links:

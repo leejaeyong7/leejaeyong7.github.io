@@ -53,3 +53,13 @@
     color: red;
 }
 
+.publication-venue-best{
+    font-weight: bold;
+    color: gold;
+}
+
+.publication-venue-best-final{
+    font-weight: bold;
+    color: silver;
+}
+

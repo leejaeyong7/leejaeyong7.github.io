@@ -1,4 +1,5 @@
 let publications = [
+    'wu2022diver',
     'lee2021patchmatchrl',
     'lee2021patchmatch',
     'lin2019exploring',
@@ -30,6 +31,10 @@ const createPublicationCard = async (publication) => {
     venueContainer.innerHTML = contents.venue;
     const oralSpan = container.querySelector('.publication-venue-oral');
     oralSpan.style.display = contents.oral ? 'inline-block' : 'none';
+    const bestSpan = container.querySelector('.publication-venue-best');
+    bestSpan.style.display = contents.best ? 'inline-block' : 'none';
+    const bestFinalSpan = container.querySelector('.publication-venue-best-final');
+    bestFinalSpan.style.display = contents.best_final ? 'inline-block' : 'none';
 
 
     const linkContainer = container.querySelector('.publication-links')

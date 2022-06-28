@@ -8,6 +8,8 @@ authors:
 url: https://github.com/leejaeyong7/patchmatch-rl
 venue: ICCV, 2021
 oral: true
+best: false
+best_final: false
 description: Training PatchMatch end-to-end using Reinforcement Learning
 
 links:

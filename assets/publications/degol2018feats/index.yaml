@@ -9,6 +9,8 @@ authors:
 
 venue: 3DV, 2018
 oral: false
+best: false
+best_final: false
 description: Synthetic feature point generation for feature matching simulation.
 
 links:
