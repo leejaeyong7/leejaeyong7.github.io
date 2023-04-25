@@ -1,0 +1,17 @@
+title: "Sparse SPN: Depth Completion from Sparse Keypoints"
+authors:
+- <a href="https://yuqunw.github.io/">Yuqun Wu*</a>
+- Jae Yong Lee*
+- <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>
+
+url: https://arxiv.org/abs/2212.00987
+venue: arXiv, 2022
+oral: false
+best: false
+best_final: false
+description: Sparse-to-Dense targetting Keypoint (SfM) based sampling
+
+links:
+  - arXiv: https://arxiv.org/abs/2212.00987
+  - video: 
+  - code: 

@@ -1,0 +1,20 @@
+title: "QFF: Quantized Fourier Features for Neural Field Representations"
+authors:
+- Jae Yong Lee
+- <a href="https://yuqunw.github.io/">Yuqun Wu</a>
+- <a href="https://shenlong.web.illinois.edu/">Shenlong Wang</a>
+- <a href="https://zouchuhang.github.io/">Chuhang Zou</a>
+- <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>
+
+url: 
+venue: arXiv, 2022
+oral: false
+best: false
+best_final: false
+description: Novel neural scene representation for speeding up optimization with minimum cost
+
+
+links:
+  - arXiv: https://arxiv.org/abs/2212.00914
+  - video: 
+  - code: 

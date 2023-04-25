@@ -1,4 +1,7 @@
 let publications = [
+    'lee2022deep',
+    'lee2022qff',
+    'wu2022sparse',
     'wu2022diver',
     'lee2021patchmatchrl',
     'lee2021patchmatch',

@@ -1,0 +1,18 @@
+title: "Deep PatchMatch MVS with Learned Patch Coplanarity, Geometric Consistency and Adaptive Pixel Sampling"
+authors:
+- Jae Yong Lee
+- <a href="https://zouchuhang.github.io/">Chuhang Zou</a>
+- <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>
+
+url: https://arxiv.org/abs/2210.07582
+venue: arXiv, 2022
+oral: false
+best: false
+best_final: false
+description: Improving PatchMatch based MVS with Learned Coplanarity and geometric consistency, with efficient inference using adaptive pixel sampling.
+
+
+links:
+  - arXiv: https://arxiv.org/abs/2210.07582
+  - video: 
+  - code: 

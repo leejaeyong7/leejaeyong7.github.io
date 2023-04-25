@@ -17,9 +17,11 @@
     padding:20px;
     width:25%;
     vertical-align:top;
+    text-align: center;
 }
 .experience-logo-container > img{
     max-width: 180px;
+    max-height: 100px;
 }
 
 .experience-info {
