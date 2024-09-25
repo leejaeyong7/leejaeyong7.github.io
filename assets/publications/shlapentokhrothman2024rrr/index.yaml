@@ -16,7 +16,7 @@ venue: CVPR, 2024
 oral: false
 best: false
 best_final: false
-description: Novel neural scene representation for speeding up optimization with minimum cost
+description: Various experiments related to region-pooled features.
 
 
 links:

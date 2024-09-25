@@ -11,7 +11,7 @@ venue: arXiv, 2024
 oral: false
 best: false
 best_final: false
-description: Novel neural scene representation for speeding up optimization with minimum cost
+description: Using patch-based monocular guidance to improve neural radiance fields.
 
 
 links:
