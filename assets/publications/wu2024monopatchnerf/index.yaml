@@ -1,0 +1,20 @@
+title: "MonoPatchNeRF: Improving Neural Radiance Fields with Patch-based Monocular Guidance"
+authors:
+- <a href="https://yuqunw.github.io/">Yuqun Wu*</a>
+- Jae Yong Lee*
+- <a href="https://shenlong.web.illinois.edu/">Shenlong Wang</a>
+- <a href="https://zouchuhang.github.io/">Chuhang Zou</a>
+- <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>
+
+url: https://yuqunw.github.io/MonoPatchNeRF/
+venue: arXiv, 2024
+oral: false
+best: false
+best_final: false
+description: Novel neural scene representation for speeding up optimization with minimum cost
+
+
+links:
+  - arXiv: https://arxiv.org/abs/2404.08252
+  - video: 
+  - code: https://github.com/yuqunw/monopatch_nerf

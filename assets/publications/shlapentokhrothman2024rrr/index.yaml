@@ -1,0 +1,25 @@
+title: "Region-Based Representations Revisited"
+authors:
+- <a href="https://michalmsr.web.illinois.edu/">Michal Shlapentokh-Rothman</a>
+- Ansel Blume
+- <a href="https://avaxiao.github.io/">Yao Xiao</a>
+- <a href="https://yuqunw.github.io/">Yuqun Wu</a>
+- <a href="https://www.linkedin.com/in/sethuramantv/">Sethuraman T V</a>
+- <a href="https://www.linkedin.com/in/heyi-tao-916670174/">Heyi Tao</a>
+- Jae Yong Lee
+- <a href="https://www.linkedin.com/in/wilfredo-torres-calder%C3%B3n-0468b532">Wilfredo Torres</a>
+- <a href="https://yxw.cs.illinois.edu/">Yu-Xiong Wang</a>
+- <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>
+
+url: https://regionreps.web.illinois.edu/
+venue: CVPR, 2024
+oral: false
+best: false
+best_final: false
+description: Novel neural scene representation for speeding up optimization with minimum cost
+
+
+links:
+  - arXiv: https://arxiv.org/abs/2402.02352
+  - video: 
+  - code: https://github.com/michalsr/regions
